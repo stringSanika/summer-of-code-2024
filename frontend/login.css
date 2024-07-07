@@ -10,8 +10,9 @@ body{
 .box{
     box-shadow: 0 0 20px 0 ;
     background: transparent;
-    background-color: rgb(238, 184, 91);
+    backdrop-filter: blur(20px);
     width: 50%;
     margin: auto;
     padding: 20px;
+    text-align: center;
 }
